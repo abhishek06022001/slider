@@ -1,0 +1,10 @@
+.slides{
+    /* position: relative; */
+}
+.slides img {
+    display: none;
+    overflow: none;
+}
+img.display{
+    display: block;
+}
