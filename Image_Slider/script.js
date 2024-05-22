@@ -10,13 +10,15 @@ const next=()=>{
     slides[curr].classList.remove('display');
     curr++;
     curr= curr%3;
-    // initial();
+    slides[curr].classList.add('display');
+    
 };
 const prev=()=>{
     slides[curr].classList.remove('display');
-    curr--;
-    curr= curr%3;
-    initial();
+    // curr--;
+    curr= (curr-1 +3 )%3;
+    slides[curr].classList.add('display');
+
 }
 
 initial();
